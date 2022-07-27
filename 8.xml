@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/second_Button4"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:onClick="entered_number"
+        android:text="8"
+        app:layout_constraintEnd_toStartOf="@+id/third_Button3"
+        app:layout_constraintTop_toBottomOf="@+id/second_Button3"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/one_Button4"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:onClick="entered_number"
+        android:text="7"
+        app:layout_constraintEnd_toStartOf="@+id/second_Button4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one_Button3"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/third_Button3"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:onClick="entered_number"
+        android:text="9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/third_Button2"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/one_Button3"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:onClick="entered_number"
+        android:text="4"
+        app:layout_constraintEnd_toStartOf="@+id/second_Button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/One_Button"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/third_Button2"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:onClick="entered_number"
+        android:text="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Third_Button"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/second_Button3"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:onClick="entered_number"
+        android:text="5"
+        app:layout_constraintEnd_toStartOf="@+id/third_Button2"
+        app:layout_constraintTop_toBottomOf="@+id/Second_Button"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/CALL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:text="CALL"
+        app:layout_constraintEnd_toStartOf="@+id/SAVE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/second_Button4" />
+
+    <Button
+        android:id="@+id/SAVE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:text="SAVE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/third_Button3" />
+
+    <EditText
+        android:id="@+id/Phone_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:ems="10"
+        android:hint="Enter the Number"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/One_Button"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="entered_number"
+        android:text="1"
+        app:layout_constraintEnd_toStartOf="@+id/Second_Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phone_Number"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/Second_Button"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:onClick="entered_number"
+        android:text="2"
+        app:layout_constraintEnd_toStartOf="@+id/Third_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Phone_Number"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/Third_Button"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:onClick="entered_number"
+        android:text="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phone_Number"
+        tools:ignore="OnClick" />
+</androidx.constraintlayout.widget.ConstraintLayout>
